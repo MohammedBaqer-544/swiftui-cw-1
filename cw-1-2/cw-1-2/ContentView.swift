@@ -40,17 +40,17 @@ struct ContentView: View {
             VStack {
                 HStack {
                     Text("02:10")
-                        .font(.custom("Montserrat-BlackItalic.ttf", size: 75))
+                        .font(.custom("Montserrat-BlackItalic", size: 75))
                         .foregroundColor(.white)
                     
                     Text("10")
-                        .font(.custom("Montserrat-BlackItalic.ttf", size: 20))
+                        .font(.custom("Montserrat-BlackItalic", size: 20))
                         .foregroundColor(.white)
                         .padding(.top, 35.0)
                 }
                 
                 Text("مضى على الأذان")
-                    .font(.custom("VeganStylePersonalUse-5Y58.ttf", size: 20))
+                    .font(.custom("CassandraPersonalUseRegular-3BjG", size: 20))
                     .foregroundColor(.white)
                     .padding()
                 
@@ -64,7 +64,7 @@ struct ContentView: View {
                         Spacer()
                         
                         Text("28 إبريل - 5 رمضان")
-                            .font(.custom("Montserrat-BlackItalic.ttf", size: 20))
+                            .font(.custom("Montserrat-BlackItalic", size: 20))
                             .foregroundColor(.white)
                         
                         Spacer()
@@ -84,11 +84,11 @@ struct ContentView: View {
                         HStack{
                             Spacer()
                             Text("3:44 AM")
-                                .font(.custom("LemonJellyPersonalUse-dEqR.ttf", size: 30))
+                                .font(.custom("LemonJellyPersonalUse-dEqR", size: 30))
                                 .foregroundColor(.white)
                             Spacer()
                             Text("الفجر")
-                                .font(.custom("Montserrat-BlackItalic.ttf", size: 30))
+                                .font(.custom("CassandraPersonalUseRegular-3BjG", size: 30))
                                 .foregroundColor(.white)
                             Spacer()
                         }
@@ -97,11 +97,11 @@ struct ContentView: View {
                         HStack{
                             Spacer()
                             Text("5:09 AM")
-                                .font(.custom("Montserrat-BlackItalic.ttf", size: 30))
+                                .font(.custom("Montserrat-BlackItalic", size: 30))
                                 .foregroundColor(.white)
                             Spacer()
                             Text("الشروق")
-                                .font(.custom("Montserrat-BlackItalic.ttf", size: 30))
+                                .font(.custom("Montserrat-BlackItalic", size: 30))
                                 .foregroundColor(.white)
                             Spacer()
                         }
@@ -109,11 +109,11 @@ struct ContentView: View {
                         HStack{
                             Spacer()
                             Text("11:46 AM")
-                                .font(.custom("Montserrat-BlackItalic.ttf", size: 30))
+                                .font(.custom("CassandraPersonalUseRegular-3BjG", size: 30))
                                 .foregroundColor(.white)
                             Spacer()
                             Text("الظهر")
-                                .font(.custom("Montserrat-BlackItalic.ttf", size: 30))
+                                .font(.custom("CassandraPersonalUseRegular-3BjG", size: 30))
                                 .foregroundColor(.white)
                             Spacer()
                         }
@@ -121,11 +121,11 @@ struct ContentView: View {
                         HStack{
                             Spacer()
                             Text("3:21 PM")
-                                .font(.custom("Montserrat-BlackItalic.ttf", size: 30))
+                                .font(.custom("CassandraPersonalUseRegular-3BjG", size: 30))
                                 .foregroundColor(.white)
                             Spacer()
                             Text("العصر")
-                                .font(.custom("Montserrat-BlackItalic.ttf", size: 30))
+                                .font(.custom("CassandraPersonalUseRegular-3BjG", size: 30))
                                 .foregroundColor(.white)
                             Spacer()
                         }
@@ -133,11 +133,11 @@ struct ContentView: View {
                         HStack{
                             Spacer()
                             Text("6:22 AM")
-                                .font(.custom("Montserrat-BlackItalic.ttf", size: 30))
+                                .font(.custom("CassandraPersonalUseRegular-3BjG", size: 30))
                                 .foregroundColor(.white)
                             Spacer()
                             Text("المغرب")
-                                .font(.custom("Montserrat-BlackItalic.ttf", size: 30))
+                                .font(.custom("CassandraPersonalUseRegular-3BjG", size: 30))
                                 .foregroundColor(.white)
                             Spacer()
                         }
@@ -145,11 +145,11 @@ struct ContentView: View {
                         HStack{
                             Spacer()
                             Text("7:45 AM")
-                                .font(.custom("Montserrat-BlackItalic.ttf", size: 30))
+                                .font(.custom("CassandraPersonalUseRegular-3BjG", size: 30))
                                 .foregroundColor(.white)
                             Spacer()
                             Text("العشاء")
-                                .font(.custom("Montserrat-BlackItalic.ttf", size: 30))
+                                .font(.custom("CassandraPersonalUseRegular-3BjG", size: 30))
                                 .foregroundColor(.white)
                             Spacer()
                         }
